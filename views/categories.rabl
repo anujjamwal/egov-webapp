@@ -1,3 +1,8 @@
-collection @categories
+category_arr = []
+@categories.each do |category|
+  category_arr << category.name
+end
 
-attributes :name
+node :categories do
+  category_arr
+end
