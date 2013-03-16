@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "placeholder" do
+describe IncidentCategory do
   it "should be true" do
     true.should be_true
   end
