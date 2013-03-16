@@ -1,6 +1,0 @@
-<html>
-<form name= 'demo' method='get' action='/show' >
-<input type="text" name="name">
-<input type="submit" value ="enter">
-</form>
-</html>
