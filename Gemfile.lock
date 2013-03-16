@@ -32,6 +32,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    require_all (1.2.1)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -56,5 +57,6 @@ DEPENDENCIES
   mongoid
   pry
   rack-test
+  require_all
   rspec
   sinatra

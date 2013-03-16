@@ -1,17 +1,11 @@
 #app.rb
-
 require 'sinatra'
-require 'mongoid'
-require_relative('lib/models/category')
+require File.join(File.dirname(__FILE__), "config", "boot.rb")
 
 set :erb, :format => :html
 
-Mongoid.load!('config/mongoid.yml', :development)
-
 get '/' do
-
   erb :form
-
 end
 
 get '/categories' do
