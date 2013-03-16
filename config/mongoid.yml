@@ -1,4 +1,6 @@
 development:
-  host: localhost
-  database: egov_web
-
+  sessions:
+    default:
+      database: egov_web
+      hosts:
+        - localhost:27017
