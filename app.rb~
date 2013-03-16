@@ -1,0 +1,7 @@
+#app.rb
+
+set :erb, :format => :html
+
+get "/" do
+	html :form
+end 
